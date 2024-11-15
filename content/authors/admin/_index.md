@@ -1,17 +1,14 @@
 ---
 # Display name
-title: 吳健雄
+title: Ronnie Bailey-Steinitz, PhD
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ""
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Ronnie
+last_name: Bailey-Steinitz
 
-# Status emoji
-status:
-  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,99 +17,147 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Scientist | Wildlife Biologist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: "UC Santa Barbara"
+    url: ""
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:ronnie.steinitz@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/RoamingEcologist
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/rsteinitz
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/ronniesteinitz/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?hl=en&authuser=2&user=astDl-wAAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-8719-9080
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Wildlife Ecology
+  - Spatial Ecology 
+  - Energetics
+  - Food Web Dynamics
+  - R, GIS
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Ph.D. Integrative Anthropological Sciences
+    institution: University of California, Santa Barbara
+    date_start: 2017-09-15
+    date_end: 2024-09-14
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Dissertation Title: _The Tall Price of Being Small: The Energetic and Fitness Costs of Interspecific Feeding Competition in Wild Primates_.   
+      Supervisor: [Dr. Michelle Brown](https://ngogomonkeys.com/). 
+      - $89,394 in fellowships and $47,462 in research grants
+      - [1 first-author publication](https://www.proquest.com/docview/3123627169/BBE78CF9180B4C33PQ/1?accountid=14522&sourcetype=Dissertations%20&%20Theses) and 5 first-author conferences presentations
+      - 2 manuscripts in preparation
+      - 5 invited talks
+      - 1 Academic award, 4 nominations for _Excellence in Teaching_ awards
+      - Supervised 13 undergraduate and post-grad students in the U.S. and in Uganda
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      text: 'Read Dissertation'
+      url: 'https://www.proquest.com/docview/3123627169/BBE78CF9180B4C33PQ/1?accountid=14522&sourcetype=Dissertations%20&%20Theses'
+  - area: M.A. Integrative Anthropological Sciences
+    institution: University of California, Santa Barbara
+    date_start: 2017-09-15
+    date_end: 2021-04-14
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      Thesis Title: _Energy consequences of intra-guild feeding competition in a primate community._  
+      Supervisor: [Dr. Michelle Brown](https://ngogomonkeys.com/). 
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: M.S. Biology
+    institution: University of California, San Diego
+    date_start: 2014-01-01
+    date_end: 2025-06-15
+    summary: |
+      Thesis Title: _Diet-tissue stable isotope (&#916;<sup>13</sup>C and &#916;<sup>15</sup>N) discrimination factors for multiple tissues from terrestrial reptiles (rock iguanas, Cyclura species)._  
+      - Supervisor: [Dr. Carolyn Kurle](https://labs.biology.ucsd.edu/kurle/). 
+      - $3,500 in fellowships and $3,000 in research grants
+      - 2 first-author publications [(1](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/rcm.7410) [,2)](https://www.proquest.com/docview/1699340766/E17373C9D5F47D2PQ/1?accountid=14522&sourcetype=Dissertations%20&%20Theses) and 2 first-author conferences presentations
+      -  _Excellence in Teaching_ award
+      - Supervised 2 undergraduates in the U.S
+    
+  - area: B.S. Ecology, Behavior, and Evolution
+    institution: University of California, San Diego
+    date_start: 2009-09-15
+    date_end: 2013-12-31
+    summary: |
+      
+      - 2 Academic awards  
+      
+      Selected coursework - Ecology:
+      - Computational Modeling in Evolution & Ecology
+      - Ecosystems and Global Change
+      - Marine Conservation Ecology
+      - Conservation & the Human Predicament
+      - Biodiversity
+      - Genetics
+      - Organisms & Habitats  
+      
+      Selected coursework - Biological Anthropology:
+      - Primate Reproduction
+      - Study of Primates in Nature
+      - Cognition in Animals & Humans
+      - Human Origins
+      
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Lecturer
+    company_name: University of California, Santa Barbara
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-09-20
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Use innovative teaching to create interdisciplinary, biodiversity-focused curricula.
+      - Teach diverse classes, averaging 50 students per session.
+      - Improve course ratings by analyzing data and updating methods.
+      - Mentor students in academic and professional growth.
+
+
+  - position: Ph.D. Candidate
+    company_name: University of California, Santa Barbara
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2017-09-15
+    date_end: 2024-09-14
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Research Skills:
+      - Led multi-phase primate research using **R**, **GIS**, and data visualization.
+      - Developed metabolic biomarker panel to study energy tradeoffs.
+      - Secured international permits for fieldwork, ensuring regulatory compliance.
+      - Published and presented bio-anthropological research with effective and visually compelling communication.
+      - Challenged existing theory using novel experimental designs.
+      - Mentored undergraduates in research skills and professional development.
+      
+  - position: Volunteer Researcher
+    company_name: U.S. Geological Survey
+    company_url: ''
+    company_logo: ''
+    date_start: 2015-09-15
+    date_end: 2017-09-14
+    summary: |
+      Research Skills:
+      - Designed and led a study on bobcat feeding ecology during California Drought.
+      - Analyzed bobcat blood samples to assess foraging and habitat use.
+      - Managed project budget and secured government grants.
+
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: R
         description: ''
         percent: 80
         icon: code-bracket
@@ -120,6 +165,10 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
+      - name: GIS
+        description: ''
+        percent: 100
+        icon: "custom/earth-grid"
       - name: SQL
         description: ''
         percent: 40
@@ -128,18 +177,23 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Travel
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
       - name: Photography
         description: ''
         percent: 80
         icon: camera
+      - name: Search and Rescue
+        description: ''
+        percent: 100
+        icon: "custom/sar"
+      - name:   _
+        description: ''
+        percent: 100
+        icon: ''
+  
 
 languages:
   - name: English
@@ -180,7 +234,8 @@ awards:
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
-
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ronnie is a wildlife biologist and data scientist. Her research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. She has studied primate physiology and reproduction, bobcat foraging, and niche partioning in endangered reptiles.  
+  
+  She is currently welcoming invitations for collaboration. 

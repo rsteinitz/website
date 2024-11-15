@@ -14,17 +14,20 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
+      # Show multiple call-to-action buttons (each button is a separate key)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Bailey_Steinitz_CV2024.pdf
+      button2:
+        text: Download Resume
+        url: uploads/Bailey_Steinitz_Resume2024.pdf  # Update with your actual file path
     design:
       css_class: dark
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: bwindi-long2.png
           filters:
             brightness: 1.0
           size: cover

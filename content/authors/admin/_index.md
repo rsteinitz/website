@@ -45,7 +45,7 @@ profiles:
     url: https://orcid.org/0000-0001-8719-9080
 
 interests:
-  - Wildlife Ecology
+  - Wildlife Biology
   - Spatial Ecology 
   - Energetics
   - Food Web Dynamics
@@ -239,6 +239,6 @@ awards:
 ---
 ## About Me
 
-Ronnie is a wildlife biologist and data scientist. Her research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. She has studied primate physiology and reproduction, bobcat foraging, and niche partioning in endangered reptiles.  
+I am a wildlife biologist and data scientist. My research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. I studied primate physiology and reproduction, bobcat foraging, and niche partioning in endangered reptiles.  
   
-  She is currently welcoming invitations for collaboration. 
+  I am currently welcoming invitations for collaboration. 

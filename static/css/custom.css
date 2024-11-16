@@ -1,7 +1,7 @@
 
 .container, .content {
-  max-width: 70%; /* Adjust this as needed */
-  width: 70%; /* Ensures full-page width */
+  max-width: 100%; /* Adjust this as needed */
+  width: 100%; /* Ensures full-page width */
 }
 
 .my-research-section {

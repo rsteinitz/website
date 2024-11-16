@@ -27,7 +27,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: bwindi-long2.png
+          filename: bwindi-long2 copy.png
           filters:
             brightness: 1.0
           size: cover
@@ -35,25 +35,28 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '<span style="display: inline-flex; align-items: flex-start;"><img src="/media/icons/custom/monkey.svg" style="width: 30px; vertical-align: middle; margin-right: 10px;"> My Research</span>'
       subtitle: ''
       text: |-
-        My work focuses on how ecological changes shape animal behavior and physiology.  
-        
-        I’m especially passionate about using cutting-edge data science tools to bring to light the complex interactions between wildlife and their environments. My dissertation research focused on quantifying the effect of temporal and spatial fluctuations in competitive pressure on the ability of small-bodied primates to secure food resources. 
-        
-        Before I began my PhD, I used stable isotope ecology to look at bobcat prey preference during the California Drought, and to study competition and niche partitioning in endangered rock iguanas in the Caribbean. 
-        
-        I thrive on transforming raw data into actionable insights for conservation. My mission is to bridge fieldwork, advanced analytics, and compelling science communication to make a meaningful impact on biodiversity preservation. 
-        
-        Let’s connect to collaborate or share ideas about wildlife, ecology, and innovative research! 
-        
+        <div style="max-width: 110%; width: 110%; margin: auto; font-size: 18px; text-align: center">
+          My work focuses on how ecological changes shape animal behavior and physiology.
+          
+          I’m especially passionate about using cutting-edge data science tools to bring to light the complex interactions between wildlife and their environments. My dissertation research focused on quantifying the effect of temporal and spatial fluctuations in competitive pressure on the ability of small-bodied primates to secure food resources.  
+          
+          Before I began my PhD, I used stable isotope ecology to look at bobcat prey preference during the California Drought, and to study competition and niche partitioning in endangered rock iguanas in the Caribbean.  
+          
+          I thrive on transforming raw data into actionable insights for conservation. My mission is to bridge fieldwork, advanced analytics, and compelling science communication to make a meaningful impact on biodiversity preservation.
+          
+          **Let’s connect to collaborate or share ideas about  
+          wildlife, ecology, and innovative research!**
+        </div>
     design:
       columns: '1'
+      css_class: 'my-research-section'  # Add this line
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: '<i class="fas fa-scroll" style="margin-right: 8px;"></i> Featured Publications'
       filters:
         folders:
           - publication

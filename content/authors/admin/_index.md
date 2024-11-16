@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ronnie Bailey-Steinitz, PhD
+title: Ronnie Bailey-Steinitz
 
 # Name pronunciation (optional)
 name_pronunciation: ""
@@ -21,7 +21,10 @@ role: Data Scientist | Wildlife Biologist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: "UC Santa Barbara"
+  - name: ""
+    url: ""
+
+  - name: "San Diego, CA"
     url: ""
 
 # Social network links

@@ -41,9 +41,9 @@ sections:
         <div style="max-width: 110%; width: 110%; margin: auto; font-size: 18px; text-align: center">
           My work focuses on how ecological changes shape animal behavior and physiology.
           
-          I’m especially passionate about using cutting-edge data science tools to bring to light the complex interactions between wildlife and their environments. My dissertation research focused on quantifying the effect of temporal and spatial fluctuations in competitive pressure on the ability of small-bodied primates to secure food resources.  
+          I’m especially passionate about using cutting-edge data science tools to bring to light the complex interactions between wildlife and their environments. My dissertation research focused on how red-tailed monkeys navigate a _"landscape of fear"_ (intra-guild predation) and _"landscape of food"_ (habitat productivity and feeding competition), and the downstream effects on energy tradeoffs and reproduction. 
           
-          Before I began my PhD, I used stable isotope ecology to look at bobcat prey preference during the California Drought, and to study competition and niche partitioning in endangered rock iguanas in the Caribbean.  
+          Before I began my PhD, I used stable nitrogen and carbon isotopes to look at bobcat prey preference during the California Drought, and to study competition and niche partitioning in endangered rock iguanas in the Caribbean.  
           
           I thrive on transforming raw data into actionable insights for conservation. My mission is to bridge fieldwork, advanced analytics, and compelling science communication to make a meaningful impact on biodiversity preservation.
           

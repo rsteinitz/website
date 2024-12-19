@@ -56,3 +56,9 @@ sitemap:
   _merge: deep
 params:
   customCSS: ["css/custom.css"]
+  author: "Ronnie Bailey-Steinitz"
+  alternative_names: ["Ronnie Steinitz"]
+  description: "Wildlife Biologist and Data Scientist specializing in ecological research and conservation."
+  keywords: ["Wildlife Biology", "Data Science", "Ecology", "Conservation", "R", "GIS", "Spatial Ecology"]
+  favicon: "images/logo.png"  # Ensure this path points to your favicon
+

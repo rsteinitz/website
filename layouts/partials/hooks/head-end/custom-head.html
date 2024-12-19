@@ -1,1 +1,8 @@
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+{{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+{{ end }}
+{{ with .Site.Params.keywords }}
+  <meta name="keywords" content="{{ delimit . ", " }}">
+{{ end }}
+<meta name="author" content="{{ .Site.Params.author }}">

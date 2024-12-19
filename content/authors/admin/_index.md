@@ -46,9 +46,9 @@ profiles:
 
 interests:
   - Wildlife Biology
-  - Spatial Ecology 
-  - Energetics
+  - Physiology and Energetics
   - Food Web Dynamics
+  - Spatial Ecology 
   - R, GIS
 
 education:
@@ -59,7 +59,7 @@ education:
     summary: |
       Dissertation Title: _The Tall Price of Being Small: The Energetic and Fitness Costs of Interspecific Feeding Competition in Wild Primates_.   
       Supervisor: [Dr. Michelle Brown](https://ngogomonkeys.com/). 
-      - $89,394 in fellowships and $47,462 in research grants
+      - $89,394 in fellowships and $48,462 in research grants
       - [1 first-author publication](https://www.proquest.com/docview/3123627169/BBE78CF9180B4C33PQ/1?accountid=14522&sourcetype=Dissertations%20&%20Theses) and 5 first-author conferences presentations
       - 2 manuscripts in preparation
       - 5 invited talks
@@ -82,7 +82,7 @@ education:
     date_end: 2025-06-15
     summary: |
       Thesis Title: _Diet-tissue stable isotope (&#916;<sup>13</sup>C and &#916;<sup>15</sup>N) discrimination factors for multiple tissues from terrestrial reptiles (rock iguanas, Cyclura species)._  
-      - Supervisor: [Dr. Carolyn Kurle](https://labs.biology.ucsd.edu/kurle/). 
+      Supervisor: [Dr. Carolyn Kurle](https://labs.biology.ucsd.edu/kurle/). 
       - $3,500 in fellowships and $3,000 in research grants
       - 2 first-author publications [(1](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/rcm.7410) [,2)](https://www.proquest.com/docview/1699340766/E17373C9D5F47D2PQ/1?accountid=14522&sourcetype=Dissertations%20&%20Theses) and 2 first-author conferences presentations
       -  _Excellence in Teaching_ award
@@ -112,14 +112,13 @@ education:
       - Human Origins
       
 work:
-  - position: Lecturer
+  - position: Lecturer - Primate Behavior, Human-Wildlife Conflict
     company_name: University of California, Santa Barbara
     company_url: ''
     company_logo: ''
     date_start: 2024-09-20
     date_end: ''
     summary: |2-
-      Responsibilities include:
       - Use innovative teaching to create interdisciplinary, biodiversity-focused curricula.
       - Teach diverse classes, averaging 50 students per session.
       - Improve course ratings by analyzing data and updating methods.
@@ -133,7 +132,6 @@ work:
     date_start: 2017-09-15
     date_end: 2024-09-14
     summary: |
-      Research Skills:
       - Led multi-phase primate research using **R**, **GIS**, and data visualization.
       - Developed metabolic biomarker panel to study energy tradeoffs.
       - Secured international permits for fieldwork, ensuring regulatory compliance.
@@ -148,11 +146,9 @@ work:
     date_start: 2015-09-15
     date_end: 2017-09-14
     summary: |
-      Research Skills:
       - Designed and led a study on bobcat feeding ecology during California Drought.
       - Analyzed bobcat blood samples to assess foraging and habitat use.
       - Managed project budget and secured government grants.
-
 
 
 # Skills
@@ -162,7 +158,7 @@ skills:
     items:
       - name: R
         description: ''
-        percent: 80
+        percent: 100
         icon: code-bracket
       - name: Data Science
         description: ''
@@ -201,9 +197,9 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Hebrew
+    percent: 100
+  - name: Spanish
     percent: 25
 
 # Awards.
@@ -237,8 +233,9 @@ awards:
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
+
 ## About Me
 
-I am a wildlife biologist and data scientist. My research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. I studied primate physiology and reproduction, bobcat foraging, and niche partioning in endangered reptiles.  
-  
-  I am currently welcoming invitations for collaboration. 
+I am a wildlife biologist and data scientist. My research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. I studied primate physiology and reproduction, bobcat foraging, and niche partioning in endangered reptiles.
+
+I am currently welcoming invitations for collaboration.

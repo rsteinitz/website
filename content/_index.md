@@ -17,10 +17,10 @@ sections:
       # Show multiple call-to-action buttons (each button is a separate key)
       button:
         text: Download CV
-        url: uploads/Bailey_Steinitz_CV2024.pdf
+        url: uploads/Bailey_Steinitz_CV2025.pdf
       button2:
         text: Download Resume
-        url: uploads/Bailey_Steinitz_Resume2024.pdf  # Update with your actual file path
+        url: uploads/Bailey_Steinitz_Resume2025.pdf  # Update with your actual file path
     design:
       css_class: dark
       background:
@@ -38,14 +38,14 @@ sections:
       title: '<span style="display: inline-flex; align-items: flex-start;"><img src="/media/icons/custom/monkey.svg" style="width: 30px; vertical-align: middle; margin-right: 10px;"> My Research</span>'
       subtitle: ''
       text: |-
-        <div style="max-width: 110%; width: 110%; margin: auto; font-size: 18px; text-align: center">
-          My work focuses on how ecological changes shape animal behavior and physiology.
+        <div style="max-width: 105%; width: 105%; margin: auto; font-size: 18px; text-align: center">
+          My work explores how ecological changes shape animal behavior and physiology.
           
-          I’m especially passionate about using cutting-edge data science tools to bring to light the complex interactions between wildlife and their environments. My dissertation research focused on how red-tailed monkeys navigate a _"landscape of fear"_ (intra-guild predation) and _"landscape of food"_ (habitat productivity and feeding competition), and the downstream effects on energy tradeoffs and reproduction. 
+          I use data science to uncover complex interactions between wildlife and their environments. My dissertation examined how **red-tailed monkeys** (_Cercopithecus ascanius_) navigate intra-guild predation (_"landscape of fear"_) and habitat productivity and feeding competition (_"landscape of food"_), and the downstream tradeoffs in energy allocation and reproduction.
           
-          Before I began my PhD, I used stable nitrogen and carbon isotopes to look at bobcat prey preference during the California Drought, and to study competition and niche partitioning in endangered rock iguanas in the Caribbean.  
+          Before my PhD, I uncovered shifts in prey preferences of **bobcats** during the California Drought and documented competitive niche partitioning in endangered **rock iguanas** in the Caribbean.
           
-          I thrive on transforming raw data into actionable insights for conservation. My mission is to bridge fieldwork, advanced analytics, and compelling science communication to make a meaningful impact on biodiversity preservation.
+          I thrive on transforming data into actionable conservation insights. My mission is to bridge fieldwork, advanced analytics, and compelling science communication to drive biodiversity preservation.
           
           **Let’s connect to collaborate or share ideas about  
           wildlife, ecology, and innovative research!**

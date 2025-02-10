@@ -32,17 +32,22 @@ organizations:
 profiles:
   - icon: at-symbol
     url: 'mailto:ronnie.steinitz@gmail.com'
-    label: E-mail Me
-  - icon: brands/instagram
-    url: https://www.instagram.com/RoamingEcologist
+    label: Email Me
   - icon: brands/github
     url: https://github.com/rsteinitz
+    label: Github
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/ronniesteinitz/
+    label: Linkedin
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?hl=en&authuser=2&user=astDl-wAAAAJ
+    label: Google Scholar
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-8719-9080
+    label: ORCiD
+  - icon: brands/instagram
+    url: https://www.instagram.com/RoamingEcologist
+    label: Instagram
 
 interests:
   - Wildlife Biology
@@ -156,37 +161,57 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: R
-        description: ''
-        percent: 100
-        icon: code-bracket
       - name: Data Science
         description: ''
         percent: 100
         icon: chart-bar
+      - name: R
+        description: ''
+        percent: 100
+        icon: code-bracket
       - name: GIS
         description: ''
         percent: 100
         icon: "custom/earth-grid"
       - name: SQL
         description: ''
-        percent: 40
+        percent: 80
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Travel
-        description: ''
-        percent: 60
-        icon: person-simple-walk
       - name: Photography
         description: ''
         percent: 80
         icon: camera
-      - name: Search and Rescue
+      - name: Backpacking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Graphic design
         description: ''
         percent: 100
+        icon: "custom/wand-magic-white"
+      - name:   _
+        description: ''
+        percent: 0
+        icon: ''
+  - name: Search & Rescue
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: ' Rope Rescue'
+        description: ''
+        percent: 100
+        icon: "custom/figure8knot2"
+      - name: Navigation
+        description: ''
+        percent: 80
+        icon: "custom/compass-white"
+      - name: Medical Response
+        description: ''
+        percent: 60
         icon: "custom/sar"
       - name:   _
         description: ''
@@ -236,6 +261,6 @@ awards:
 
 ## About Me
 
-I am a wildlife biologist and data scientist. My research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. I studied primate physiology and reproduction, bobcat foraging, and niche partioning in endangered reptiles.
+I am a wildlife biologist and data scientist. My research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. I studied primate physiology and reproduction, bobcat foraging, and niche partitioning in endangered reptiles.
 
 I am currently welcoming invitations for collaboration.

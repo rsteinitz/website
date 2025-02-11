@@ -7,6 +7,8 @@
 appearance:
   mode: system
   color: emerald
+  favicon: "favicon-new.png"
+
 
 # SEO
 marketing:
@@ -58,5 +60,6 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
 
 

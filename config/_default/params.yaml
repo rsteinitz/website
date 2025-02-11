@@ -5,9 +5,10 @@
 
 # Appearance
 appearance:
-  mode: system
+  mode: dark
   color: emerald
   favicon: "favicon-new.png"
+  disable_theme_toggle: true
 
 
 # SEO
@@ -35,7 +36,7 @@ header:
     blox: "navbar"
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: false
     logo: 
       text: "Ronnie Bailey-Steinitz, PhD"
 

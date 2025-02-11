@@ -1,12 +1,14 @@
 ---
-title: "An example journal article"
+title: "Wins and losses in intergroup conflicts reflect energy balance in red-tailed monkeys"
 authors:
+- Michelle Brown
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+- Melissa Emery Thompson
+
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
+date: "2022-02-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -18,23 +20,23 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*Philosophical Transactions of the Royal Society B, 377*(1851)"
+publication_short: "Phil. Trans. R. Soc. B"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The energetic costs and benefits of intergroup conflicts over feeding sites are widely hypothesized to be significant, but rarely quantified. In this study, we use short-term measures of energy gain and expenditure to test whether winning an intergroup encounter is associated with greater benefits, and losing with greater costs. We also test an alternative perspective, where groups fight for access to large food sources that are neither depletable nor consistently monopolizable. in this case, a group that has already fed on the resource and is willing to leave first (the loser) is supplanted by a newly arrived group (the winner). We evaluate energy balance and travel distance during and after encounters for six groups of red-tailed monkeys in Kibale National Park, Uganda. We find that winning groups experience substantial energetic benefits, but do so to recoup from earlier deficits. Losing groups, contrary to predictions, experience minimal energetic costs. Winners and losers are predictable based upon their use of the contested resource immediately before the encounter. The short-term payoffs associ- ated with these stressful conflicts compensate for any associated costs and support the perception that between-group contests are an important feature of social life for species that engage in non-lethal conflicts.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Primate-energetics
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+links:
+- name: "Publication"
+  url: "https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0152"
+url_pdf: https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2021.0152?download=true
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -45,7 +47,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**Brown et al. 2022**](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2021.0152)'
   focal_point: ""
   preview_only: false
 
@@ -64,12 +66,4 @@ projects: []
 slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Access the **full text** and supplementary notes [here.](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0152)

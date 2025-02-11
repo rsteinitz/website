@@ -60,5 +60,5 @@ params:
   alternative_names: ["Ronnie Steinitz"]
   description: "Wildlife Biologist and Data Scientist specializing in ecological research and conservation."
   keywords: ["Wildlife Biology", "Data Science", "Ecology", "Conservation", "R", "GIS", "Spatial Ecology"]
-  favicon: "images/logo.png"  # Ensure this path points to your favicon
+  favicon: "static/favicon.png"  # Ensure this path points to your favicon
 

@@ -17,7 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Data Scientist | Wildlife Biologist
+role: Wildlife Biologist | Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:

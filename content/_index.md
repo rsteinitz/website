@@ -17,7 +17,7 @@ sections:
       # Show multiple call-to-action buttons (each button is a separate key)
       button:
         text: Download CV
-        url: uploads/Bailey_Steinitz_CV2025.pdf
+        url: uploads/Ronnie_Bailey_Steinitz_PhD_CV2025.pdf
       button2:
         text: Download Resume
         url: uploads/Bailey_Steinitz_Resume2025.pdf  # Update with your actual file path

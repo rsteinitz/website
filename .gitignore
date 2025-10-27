@@ -86,3 +86,8 @@ npm-debug.log*
 # Netlify build cache
 .netlify/
 
+
+# hugo stats
+hugo_stats.json
+
+

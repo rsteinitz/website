@@ -10,7 +10,6 @@ appearance:
   favicon: "favicon-new.png"
   disable_theme_toggle: true
 
-
 # SEO
 marketing:
   seo:
@@ -33,12 +32,12 @@ marketing:
 header:
   navbar:
     enable: true
-    blox: "navbar"
+    block: 'navbar'
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: false
-    logo: 
-      text: "Ronnie Bailey-Steinitz, PhD"
+    show_theme_chooser: true
+    logo:
+      text: 'Your Name'
 
 # Site footer
 footer:
@@ -61,6 +60,3 @@ features:
     enable: false
   privacy_pack:
     enable: false
-
-
-

@@ -75,3 +75,14 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+
+# RStudio files
+.Rhistory
+.RData
+.Rproj.user/
+
+
+# Netlify build cache
+.netlify/
+

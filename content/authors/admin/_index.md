@@ -21,8 +21,8 @@ role: Wildlife Biologist | Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ""
-    url: ""
+  - name: "Dian Fossey Gorilla Fund"
+    url: "https://gorillafund.org/"
 
   - name: "San Diego, CA"
     url: ""

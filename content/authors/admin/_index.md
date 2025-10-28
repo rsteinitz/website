@@ -144,7 +144,7 @@ work:
       - Challenged existing theory using novel experimental designs.
       - Mentored undergraduates in research skills and professional development.
       
-  - position: Volunteer Researcher
+  - position: Researcher
     company_name: U.S. Geological Survey
     company_url: ''
     company_logo: ''
@@ -232,35 +232,43 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+
+  - title: National Science Foundation Doctoral Dissertation Research Improvement Grant (DDRIG)
+    url: https://www.nsf.gov/
+    date: '2022-08-01'
+    awarder: National Science Foundation (NSF)
+    icon: award
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      ($31,062) The NSF Doctoral Dissertation Improvement Grant in Biological Anthropology funded my dissertation research on how interspecies competition affects the energy balance and reproductive outcomes of red-tailed monkeys in Uganda. This award supported multi-site fieldwork using non-invasive metabolic biomarkers to examine ecological stress and competition from larger primates.
+
+  - title: UC Graduate Opportunity Fellowship
+    url: https://www.ucop.edu/graduate-studies/
+    date: '2021-04-01'
+    awarder: University of California
+    icon: award
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      ($42,435) The UC Graduate Opportunity Fellowship provided academic year support for my doctoral research at UC Santa Barbara. This fellowship funded fieldwork and data analysis on primate energetics and competition while supporting professional development during my PhD.
+
+  - title: USGS Grant for Independent Research
+    url: https://www.usgs.gov/
+    date: '2017-08-01'
+    awarder: U.S. Geological Survey (USGS)
+    icon: award
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Funding provided by the Western Ecological Research Center for independent research on shifts in bobcat prey preference across urban and native habitats during the California Drought.
+
+  - title: Excellence in Teaching Award
+    url: https://biology.ucsd.edu/
+    date: '2014-09-01'
+    awarder: Division of Biological Sciences, UC San Diego
+    icon: education
+    summary: |
+      Recognized for outstanding undergraduate instruction and mentorship as a Tutor in the Division of Biological Sciences at UC San Diego.
+
 ---
 
 ## About Me
 
-I am a wildlife biologist and data scientist. My research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. I studied primate physiology and reproduction, bobcat foraging, and niche partitioning in endangered reptiles.
+I am a wildlife biologist and data scientist. My research explores feeding ecology and food-web dynamics, using advanced analysis and modeling in R and GIS. I studied primate physiology, reproduction, and aging, bobcat foraging, and niche partitioning in endangered reptiles.
 
 I am currently welcoming invitations for collaboration.

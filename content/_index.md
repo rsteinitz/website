@@ -35,7 +35,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '<span style="display: inline-flex; align-items: flex-start;"><img src="/media/icons/custom/monkey.svg" style="width: 30px; vertical-align: middle; margin-right: 10px;"> My Research</span>'
+      title: '<span style="display:inline-flex;align-items:flex-start;">{{< icon name="monkey" pack="custom" width="30" >}} My Research</span>'
       subtitle: ''
       text: |-
         <div style="max-width: 105%; width: 105%; margin: auto; font-size: 18px; text-align: center">

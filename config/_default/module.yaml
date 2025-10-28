@@ -5,9 +5,9 @@
 ############################
 
 imports:
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-icons
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind@v0.9.0
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-core@v0.3.1
+    
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:

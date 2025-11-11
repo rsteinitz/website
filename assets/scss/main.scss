@@ -1,0 +1,8 @@
+// This is the direct override for the theme's faulty main.scss file.
+
+// FIX 1: Import Bootstrap using the standard Go Module path.
+// The asset resolver should now find the module directly.
+@import "github.com/twbs/bootstrap/scss/bootstrap"; 
+
+// FIX 2: Import the rest of the theme's styles (which should now succeed)
+@import "hugo-blox-builder/scss/main";

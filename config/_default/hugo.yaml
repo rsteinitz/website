@@ -35,7 +35,7 @@ permalinks:
   authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS, "headers", "redirects", "backlinks"]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
@@ -55,9 +55,24 @@ security:
 sitemap:
   _merge: deep
 params:
-  customCSS: ["css/custom.css"]
+  # customCSS: ["css/custom.css"] # COMMENTED OUT
   author: "Ronnie Bailey-Steinitz"
   alternative_names: ["Ronnie Steinitz"]
   description: "Wildlife Biologist and Data Scientist specializing in ecological research and conservation."
   keywords: ["Wildlife Biology", "Data Science", "Ecology", "Conservation", "R", "GIS", "Spatial Ecology"]
   favicon: "favicon-new.png"
+mediaTypes:
+  'text/netlify':
+    suffixes: ['']
+    delimiter: ''
+outputFormats:
+  Redirects:
+    name: redirects
+    baseName: _redirects
+    isPlainText: true
+    mediaType: "text/netlify"
+  Headers:
+    name: headers
+    baseName: _headers
+    isPlainText: true
+    mediaType: "text/netlify" # Reuses the media type we just defined!

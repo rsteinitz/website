@@ -75,4 +75,13 @@ outputFormats:
     name: headers
     baseName: _headers
     isPlainText: true
-    mediaType: "text/netlify" # Reuses the media type we just defined!
+    mediaType: "text/netlify"
+
+
+
+
+    
+
+
+
+

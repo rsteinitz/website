@@ -1,0 +1,85 @@
+/* Make only the NAME smaller in resume-biography-3 block */
+.hx-profile-title {
+  font-size: 8.0rem !important;   /* default is ~3.8rem */
+  line-height: 1.1 !important;
+}
+
+
+/* Gradient fade at bottom of hero section */
+.hero::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #181818 100%);
+  pointer-events: none;
+}
+
+.my-research-section {
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Override HugoBlox block width limits */
+.block-section .container, 
+.block-section .row, 
+.block-section .col-lg-8, 
+.block-section .col-md-10 {
+  max-width: 95% !important;
+}
+
+/* body { background: #181818 !important; }
+
+
+/* Small screens (default): 1 column */
+#section-resume-biography-3 .grid:nth-of-type(2) {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
+/* Medium screens (tablets ≥ 640px): 2 columns */
+@media (min-width: 640px) {
+  #section-resume-biography-3 .grid:nth-of-type(2) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Large screens (desktops ≥ 1024px): still 2 columns (your preference) */
+@media (min-width: 1024px) {
+  #section-resume-biography-3 .grid:nth-of-type(2) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Make the buttons under the photo show in two columns */
+#section-resume-biography-3 .flex.flex-wrap.justify-center.gap-4 {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 1rem !important;  /* keep spacing */
+  justify-items: center;
+}
+
+#section-resume-biography-3 h2 {
+  visibility: hidden;           /* hide original text */
+  position: relative;
+}
+
+#section-resume-biography-3 h2::after {
+  content: "Who I Am";          /* your new title */
+  visibility: visible;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Reduce excess spacing between Education/Experience and Skills */
+#section-resume-experience,
+#section-resume-skills {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+

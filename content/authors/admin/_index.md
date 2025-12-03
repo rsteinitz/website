@@ -67,8 +67,8 @@ education:
     date_start: 2017-09-15
     date_end: 2024-09-14
     summary: |
-      Dissertation Title: _The Tall Price of Being Small_  
-      Supervisor: Dr. Michelle Brown.  
+      Dissertation Title: _The Tall Price of Being Small: The Energetic Consequences of Interspecific Feeding Competition in Primates_  
+      Supervisor: Drs. Michael Gurven and Michelle Brown  
       - $89,394 in fellowships and $48,462 in research grants  
       - 1 first-author publication and 5 first-author conferences presentations  
       - 2 manuscripts in preparation  
@@ -86,6 +86,9 @@ education:
     date_end: 2021-04-14
     summary: |
       Thesis Title: _Energy consequences of intra-guild feeding competition in a primate community._
+      Supervisor: Dr. Michelle Brown
+      - International permits research and sample export
+      - Designed and carried out pilot season for PhD dissertation
 
   - area: M.S. Biology
     institution: University of California, San Diego
@@ -93,6 +96,7 @@ education:
     date_end: 2015-06-15
     summary: |
       Thesis Title: _Stable isotope discrimination factors for terrestrial reptiles._  
+      Supervisor: Dr. Carolyn Kurle
       - $3,500 in fellowships and $3,000 in research grants  
       - 2 first-author publications and 2 first-author conferences presentations  
       - Excellence in Teaching award
@@ -110,16 +114,16 @@ work:
     company_name: Dian Fossey Gorilla Fund
     date_start: 2025-03-01
     summary: |
-      - Research early life adversity, health, and aging in wild mountain gorillas  
-      - Integrate behavioral, ecological, and physiological data into health trajectory models  
-      - Collaborate with international partners and mentor Rwandan students in data analysis  
-      - Lead ongoing research and project coordination at the Ellen DeGeneres Campus in Rwanda  
+      - Research health and aging in wild mountain gorillas  
+      - Develop health trajectory models using behavioral and physiological data  
+      - Collaborate with international partners and mentor Rwandan students  
+      - Coordinate research projects at the Ellen DeGeneres Campus in Rwanda  
 
   - position: Lecturer - Primate Behavior & Human-Wildlife Conflict
     company_name: University of California, Santa Barbara
     date_start: 2024-09-20
     date_end: 2024-12-31
-    summary: |2-
+    summary: |
       - Created interdisciplinary, biodiversity-focused curricula  
       - Taught ~50 students per class  
       - Improved course performance via data-informed teaching  
@@ -130,11 +134,12 @@ work:
     date_start: 2017-09-15
     date_end: 2024-09-14
     summary: |
-      - Led multi-phase primate research using R and GIS  
+      - Led multi-phase primate research project  
       - Developed metabolic biomarker panel  
-      - Secured permits and coordinated international fieldwork  
-      - Published impactful research  
-      - Mentored ~12 undergraduates
+      - Analyzed biological and spatial data (R, GIS)
+      - Secured grants, permits, and coordinated international fieldwork  
+      - Publications and conferences presentations
+      - Mentored 13 undergraduates
 
   - position: Researcher
     company_name: U.S. Geological Survey
@@ -210,7 +215,7 @@ skills:
         percent: 60
 
 # ======================
-# AWARDS (fixed icons)
+# AWARDS 
 # ======================
 awards:
 

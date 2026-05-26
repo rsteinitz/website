@@ -272,7 +272,7 @@ awards:
   - title: Excellence in Teaching Award
     awarder: UC San Diego
     date: "2014-09-01"
-    icon: graduation-cap
+    icon: trophy
     icon_pack: fas
     summary: |
       Recognized for outstanding undergraduate instruction and mentorship.

@@ -154,13 +154,10 @@ work:
 # SKILLS (fixed icons)
 # ======================
 skills:
-  - name: Technical Skills
+  - name: Data Science
+    color: "#eeac02"
+    color_border: "#f0bf23"
     items:
-      - name: Data Science
-        icon: chart-bar
-        icon_pack: fas
-        percent: 100
-
       - name: R Programming
         icon: code-bracket
         icon_pack: fas
@@ -175,6 +172,35 @@ skills:
         icon: circle-stack
         icon_pack: fas
         percent: 80
+
+      - name: Data Visualization
+        icon: chart-bar
+        icon_pack: fas
+        percent: 100
+
+  - name: Research
+    color: "#eeac02"
+    color_border: "#f0bf23"
+    items:
+      - name: Behavior & Tracking
+        icon: "custom/paw_small"
+        icon_pack: custom
+        percent: 100
+
+      - name: Sample Collection
+        icon: "custom/poop_small"
+        icon_pack: custom
+        percent: 100
+        
+      - name: Hormone Immunoassays
+        icon: "custom/flask_small"
+        icon_pack: custom
+        percent: 95
+
+      - name: Stable Isotopes
+        icon: "custom/sia_small"
+        icon_pack: custom
+        percent: 90
 
   - name: Hobbies
     color: "#eeac02"
@@ -209,7 +235,7 @@ skills:
         icon_pack: custom
         percent: 80
 
-      - name: Medical Response
+      - name: Emergency Medical Response
         icon: "custom/sar"
         icon_pack: custom
         percent: 60

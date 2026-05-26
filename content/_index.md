@@ -15,7 +15,7 @@ sections:
       text: "Wildlife biologist and data scientist bridging field ecology, physiology, and analytics to understand animal behavior and conservation challenges."
       button:
         text: Download CV
-        url: uploads/Ronnie_Bailey_Steinitz_PhD_CV2025.pdf
+        url: uploads/Ronnie_Bailey_Steinitz_PhD_CV2026.pdf
       button2:
         text: Download Resume
         url: uploads/Bailey_Steinitz_Resume2025.pdf

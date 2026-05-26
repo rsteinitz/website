@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700.34 763.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 333.33;
+        stroke-width: 63.67px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier">
+      <line class="cls-1" x1="191.17" y1="31.83" x2="509.17" y2="31.83"/>
+      <path class="cls-1" d="M445.51,190.83V31.83h-190.67v159L40.17,620.17c-5.26,10.34-8.11,21.73-8.33,33.33h0c-.55,42.71,33.62,77.77,76.33,78.33.34,0,.67,0,1.01,0h482c42.71,0,77.33-34.62,77.33-77.33h0c-.22-11.6-3.07-23-8.33-33.33l-214.67-430.33Z"/>
+      <path class="cls-1" d="M179.84,340.5c166.67-72.33,177,63.33,347.33,13.67"/>
+      <line class="cls-1" x1="191.17" y1="604.5" x2="254.84" y2="604.5"/>
+      <line class="cls-1" x1="286.51" y1="477.17" x2="350.17" y2="477.17"/>
+      <line class="cls-1" x1="445.51" y1="540.83" x2="509.17" y2="540.83"/>
+    </g>
+  </g>
+</svg>

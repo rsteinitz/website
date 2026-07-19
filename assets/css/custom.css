@@ -1,11 +1,10 @@
 /* Make only the NAME smaller in resume-biography-3 block */
 .hx-profile-title {
-  font-size: 8.0rem !important;   /* default is ~3.8rem */
+  font-size: 8rem !important;
   line-height: 1.1 !important;
 }
 
-
-/* Gradient fade at bottom of hero section */
+/* Gradient fade at bottom of hero sections */
 .hero::after {
   content: "";
   position: absolute;
@@ -13,60 +12,55 @@
   left: 0;
   right: 0;
   height: 200px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, #181818 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #181818 100%
+  );
   pointer-events: none;
 }
 
 .my-research-section {
-  text-align: center;
+  text-align: justify;
   line-height: 1.6;
 }
 
-/* Override HugoBlox block width limits */
-.block-section .container, 
-.block-section .row, 
-.block-section .col-lg-8, 
+/* Override Hugo Blox block width limits */
+.block-section .container,
+.block-section .row,
+.block-section .col-lg-8,
 .block-section .col-md-10 {
   max-width: 95% !important;
 }
 
-/* body { background: #181818 !important; }
-
-
-/* Small screens (default): 1 column */
+/* Small screens: 1 column */
 #section-resume-biography-3 .grid:nth-of-type(2) {
   grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
 }
 
-/* Medium screens (tablets ≥ 640px): 2 columns */
+/* Medium and large screens: 2 columns */
 @media (min-width: 640px) {
   #section-resume-biography-3 .grid:nth-of-type(2) {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 }
 
-/* Large screens (desktops ≥ 1024px): still 2 columns (your preference) */
-@media (min-width: 1024px) {
-  #section-resume-biography-3 .grid:nth-of-type(2) {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  }
-}
-
-/* Make the buttons under the photo show in two columns */
+/* Make the buttons under the photo show in three columns */
 #section-resume-biography-3 .flex.flex-wrap.justify-center.gap-4 {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-  gap: 1rem !important;  /* keep spacing */
+  gap: 1rem !important;
   justify-items: center;
 }
 
+/* Rename biography heading */
 #section-resume-biography-3 h2 {
-  visibility: hidden;           /* hide original text */
+  visibility: hidden;
   position: relative;
 }
 
 #section-resume-biography-3 h2::after {
-  content: "Who I Am";          /* your new title */
+  content: "Who I Am";
   visibility: visible;
   position: absolute;
   left: 0;
@@ -82,4 +76,93 @@
   padding-bottom: 0 !important;
 }
 
+/* Photography navigation cards */
+.photography-card-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 1.5rem auto 2.5rem;
+}
 
+.photography-card {
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 190px;
+  padding: 1.5rem;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 0.75rem;
+  text-align: center;
+  text-decoration: none !important;
+  color: inherit !important;
+  background: var(--bs-body-bg, transparent);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.photography-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.photography-card strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.photography-card span {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  opacity: 0.75;
+}
+
+.photography-navigation-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Photography landing-page hero */
+.photography-hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Remove Hugo Blox's narrow 672px hero text limit */
+#section-hero .max-w-2xl {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Center and size the Photography hero text */
+.photography-hero h1 {
+  width: 100%;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: clamp(3rem, 9vw, 8rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.photography-hero p {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  letter-spacing: 0.12em;
+}
+
+/* About My Photography section */
+.photography-intro {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5rem;
+  text-align: justify;
+}

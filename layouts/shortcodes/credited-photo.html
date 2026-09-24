@@ -1,0 +1,6 @@
+{{- $image := .Page.Resources.GetMatch (.Get "src") -}}
+{{- if not $image -}}{{- errorf "Missing credited photo: %s" (.Get "src") -}}{{- end -}}
+<figure style="position:relative;margin:1.5rem 0;overflow:hidden;border-radius:6px;">
+  <img src="{{ $image.RelPermalink }}" alt="{{ .Get "alt" }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" style="display:block;width:100%;height:auto;margin:0;">
+  <figcaption style="position:absolute;right:10px;bottom:10px;margin:0;padding:3px 7px;border-radius:3px;background:rgba(0,0,0,.38);color:#fff;font:400 11px/1.4 sans-serif;text-shadow:0 1px 2px #000;">photo: R. Steinitz 2025</figcaption>
+</figure>

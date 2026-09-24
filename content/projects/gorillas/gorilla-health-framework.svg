@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1140" viewBox="0 0 1600 1140" role="img" aria-labelledby="title desc">
+<title id="title">Understanding mountain gorilla health and aging</title>
+<desc id="desc">Non-invasive sampling provides complementary physiological indicators. These are integrated over time with observations of health and condition and life-history and environmental context to explore health, aging, and later-life health.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c8eee4"/></marker></defs>
+<rect width="1600" height="1140" fill="#101c1b"/>
+<text x="800" y="60" text-anchor="middle" fill="#f0faf6" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="600">Understanding mountain gorilla health and aging</text>
+<path d="M 800 200 V 244" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 334 V 365 H 230 V 399" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 334 V 365 H 610 V 399" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 334 V 365 H 990 V 399" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 334 V 365 H 1370 V 399" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 230 509 V 550 H 800 V 594" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 610 509 V 550 H 800 V 594" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 990 509 V 550 H 800 V 594" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 1370 509 V 550 H 800 V 594" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 275 704 V 755 H 800 V 809" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 704 V 755 H 800 V 809" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 1325 704 V 755 H 800 V 809" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 919 V 960 H 275 V 1004" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 919 V 960 H 800 V 1004" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 800 919 V 960 H 1325 V 1004" fill="none" stroke="#c8eee4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="575" y="110" width="450" height="90" rx="22" fill="#eaf0ed" stroke="#afc6be" stroke-width="2"/>
+<text x="800.0" y="140.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Repeated non-invasive</text>
+<text x="800.0" y="170.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">sampling</text>
+<rect x="575" y="244" width="450" height="90" rx="22" fill="#eaf0ed" stroke="#afc6be" stroke-width="2"/>
+<text x="800.0" y="274.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Physiological measurements</text>
+<text x="800.0" y="304.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">and quality control</text>
+<rect x="60" y="399" width="340" height="110" rx="22" fill="#c9f5e2" stroke="#46c5a0" stroke-width="2"/>
+<text x="230.0" y="439.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Immune activity</text>
+<text x="230.0" y="469.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">and inflammation</text>
+<rect x="440" y="399" width="340" height="110" rx="22" fill="#d4eaf0" stroke="#62b7c8" stroke-width="2"/>
+<text x="610.0" y="439.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Physical condition</text>
+<text x="610.0" y="469.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">and metabolism</text>
+<rect x="820" y="399" width="340" height="110" rx="22" fill="#f2e6bd" stroke="#d3b860" stroke-width="2"/>
+<text x="990.0" y="454.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Oxidative damage</text>
+<rect x="1200" y="399" width="340" height="110" rx="22" fill="#f1d8cb" stroke="#cd997b" stroke-width="2"/>
+<text x="1370.0" y="454.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Stress physiology</text>
+<rect x="60" y="594" width="430" height="110" rx="22" fill="#eaf0ed" stroke="#afc6be" stroke-width="2"/>
+<text x="275.0" y="634.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Observations of health</text>
+<text x="275.0" y="664.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">and condition</text>
+<rect x="585" y="594" width="430" height="110" rx="22" fill="#075e4d" stroke="#35d3a5" stroke-width="2"/>
+<text x="800.0" y="634.0" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Integrated physiological</text>
+<text x="800.0" y="664.0" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">profiles over time</text>
+<rect x="1110" y="594" width="430" height="110" rx="22" fill="#eaf0ed" stroke="#afc6be" stroke-width="2"/>
+<text x="1325.0" y="634.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Life history and</text>
+<text x="1325.0" y="664.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">environmental context</text>
+<rect x="535" y="809" width="530" height="110" rx="22" fill="#075e4d" stroke="#35d3a5" stroke-width="2"/>
+<text x="800.0" y="849.0" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Understanding patterns</text>
+<text x="800.0" y="879.0" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">within and among individuals</text>
+<rect x="60" y="1004" width="430" height="90" rx="22" fill="#dcf8ec" stroke="#46c5a0" stroke-width="2"/>
+<text x="275.0" y="1049.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Health and resilience</text>
+<rect x="585" y="1004" width="430" height="90" rx="22" fill="#dcf8ec" stroke="#46c5a0" stroke-width="2"/>
+<text x="800.0" y="1049.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Changes with age</text>
+<rect x="1110" y="1004" width="430" height="90" rx="22" fill="#dcf8ec" stroke="#46c5a0" stroke-width="2"/>
+<text x="1325.0" y="1034.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">Life experiences</text>
+<text x="1325.0" y="1064.0" text-anchor="middle" dominant-baseline="central" fill="#173b32" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="600">and later health</text>
+</svg>

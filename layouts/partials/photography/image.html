@@ -1,0 +1,7 @@
+{{- $image := resources.Get .asset -}}
+{{- with .page -}}
+  {{- $page := site.GetPage . -}}
+  {{- $image = $page.Resources.GetMatch $.file -}}
+{{- end -}}
+{{- $sized := $image.Resize "1800x webp q85" -}}
+<img src="{{ $sized.RelPermalink }}" width="{{ $sized.Width }}" height="{{ $sized.Height }}" alt="{{ .alt }}" {{ if .eager }}fetchpriority="high"{{ else }}loading="lazy"{{ end }}>

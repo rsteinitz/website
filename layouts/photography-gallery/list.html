@@ -1,0 +1,13 @@
+{{ define "main" }}
+<style>{{ (resources.Get "css/photography-editorial.css").Content | safeCSS }}</style>
+<main class="photo-editorial"><div class="pe-wrap">
+<a class="pe-back" href="/photography/">← <span>Back to Photography</span></a>
+<div class="pe-topline"><span class="pe-kicker">Ronnie Steinitz / Selected photographs</span><nav class="pe-nav" aria-label="Photography"><a href="/photography/">Portfolio</a><a href="/photography/photo-essays/">Photo Essays</a><a href="/photography/gallery/" aria-current="page">Gallery</a></nav></div>
+<header class="pe-heading"><h1>Gallery</h1><p class="pe-intro">Wildlife encounters in Rwanda, Uganda, and California. A selection of individual frames, with longer stories collected in Photo Essays.</p></header>
+<div class="pe-gallery-grid">
+{{ range $i,$photo := .Params.photos }}
+<figure class="pe-gallery-item pe-gallery-item--{{ $photo.layout | default "standard" }}">{{ partial "photography/image.html" (dict "page" $photo.page "file" $photo.file "asset" $photo.asset "alt" $photo.alt "eager" (eq $i 0)) }}<figcaption><span><span class="pe-gallery-number">{{ printf "%02d" (add $i 1) }}</span><span class="pe-caption-title">{{ $photo.caption }}</span></span>{{ with $photo.place }}<span class="pe-caption-place">{{ . }}</span>{{ end }}</figcaption></figure>
+{{ end }}
+</div>
+<div class="pe-gallery-outro"><p>Some photographs belong to a longer story.</p><a class="pe-text-link" href="/photography/photo-essays/">Browse photo essays →</a></div>
+</div></main>{{ end }}

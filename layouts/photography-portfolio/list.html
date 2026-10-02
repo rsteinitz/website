@@ -1,0 +1,15 @@
+{{ define "main" }}
+<style>{{ (resources.Get "css/photography-editorial.css").Content | safeCSS }}</style>
+<main class="photo-editorial"><div class="pe-wrap">
+<a class="pe-back" href="/">← <span>Back to Bio</span></a>
+<div class="pe-topline"><span class="pe-kicker">Ronnie Steinitz / Photography</span><nav class="pe-nav" aria-label="Photography"><a href="/photography/photo-essays/">Photo Essays</a><a href="/photography/gallery/">Gallery</a><a href="/photography/awards/">Awards &amp; Features</a></nav></div>
+<header class="pe-heading"><h1>A closer look.</h1><p class="pe-intro">Wildlife, landscapes, and the relationships that connect them. Photographs shaped by curiosity and a biologist’s perspective.</p></header>
+<figure class="pe-hero">{{ partial "photography/image.html" (dict "asset" "media/photography/DSC04080-2.jpg" "alt" "A mountain gorilla mother watches her young nearby." "eager" true) }}<figcaption><span class="pe-caption-title">01 / A mountain gorilla mother watches her young nearby.</span><span>Bwindi Impenetrable National Park, Uganda · 2022</span></figcaption></figure>
+<div class="pe-section-head"><h2>Beyond the frame</h2><a class="pe-text-link" href="/photography/gallery/">Explore the gallery ↗</a></div>
+<div class="pe-selected">
+<figure>{{ partial "photography/image.html" (dict "asset" "media/photography/DSC00654.jpg" "alt" "A village weaver works on a hanging nest in leafy branches.") }}<figcaption><span class="pe-caption-title">02 / A village weaver builds its nest.</span><span>Musanze, Rwanda · 2025</span></figcaption></figure>
+<figure>{{ partial "photography/image.html" (dict "asset" "media/photography/DSC02605.jpg" "alt" "An elephant mother stands in front of her calf.") }}<figcaption><span class="pe-caption-title">03 / An elephant mother stands before her calf.</span><span>Kazinga Channel, Uganda · 2022</span></figcaption></figure>
+</div>
+<section class="pe-feature"><figure>{{ partial "photography/image.html" (dict "asset" "media/photography/DSC00058.jpg" "alt" "Female red-tailed monkey Zebra with her nursing infant in backlit foliage.") }}</figure><div><span class="pe-kicker">Photo Essays</span><h2>Mothers and young.</h2><p class="pe-body">Photographs of feeding, carrying, sheltering, and staying close across different species.</p><a class="pe-text-link" href="/photography/photo-essays/mothers/">Read Maternal care →</a></div></section>
+<section class="pe-about"><div><span class="pe-kicker">Behind the camera</span><h2 style="margin-top:16px">A biologist’s eye.</h2></div><div><p class="pe-body">I’m drawn to photographs that invite a second look: a gesture between animals, a brief expression, or the way a landscape changes with the light. My background in wildlife biology shapes the questions I bring to those moments—and the care I take in telling their stories.</p><div class="pe-bottom-nav"><a class="pe-text-link" href="/">More about me ↗</a><a class="pe-text-link" href="/photography/awards/">Awards &amp; Features ↗</a></div></div></section>
+</div></main>{{ end }}

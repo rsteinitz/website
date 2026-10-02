@@ -1,0 +1,17 @@
+{{ define "main" }}
+<style>{{ (resources.Get "css/photography-editorial.css").Content | safeCSS }}</style>
+<main class="photo-editorial"><div class="pe-wrap">
+<a class="pe-back" href="/photography/photo-essays/">← <span>Back to Photo Essays</span></a>
+<div class="pe-topline"><span class="pe-kicker">Ronnie Steinitz / Photo essay</span><nav class="pe-nav" aria-label="Photography"><a href="/photography/">Portfolio</a><a href="/photography/photo-essays/">Photo Essays</a><a href="/photography/gallery/">Gallery</a></nav></div>
+<div style="padding:38px 0 8px"><span class="pe-kicker">Visual story / {{ .Params.category }}</span><h1 style="max-width:1000px;margin:20px 0">{{ .Title }}</h1><p class="pe-essay-deck">{{ .Params.deck }}</p></div>
+{{ with index .Params.frames 0 }}<figure class="pe-essay-hero">{{ partial "photography/image.html" (dict "page" .page "file" .file "asset" .asset "alt" .alt "eager" true) }}<figcaption><span class="pe-caption-title">{{ .caption }}</span>{{ with .place }}<span class="pe-caption-place">{{ . }}</span>{{ end }}</figcaption></figure>{{ end }}
+<div class="pe-essay-copy">{{ .Content }}</div>
+<div class="pe-essay-sequence">
+{{ range $i, $frame := after 1 .Params.frames }}
+{{ if eq $i 3 }}<div class="pe-essay-interlude"><span class="pe-kicker">Close enough to follow</span><p>Some young stay in direct contact. Others venture a little farther while a mother remains nearby.</p></div>{{ end }}
+{{ if eq $i 6 }}<div class="pe-essay-interlude"><span class="pe-kicker">Within sight</span><p>A shoulder, a back, or a watchful glance keeps the connection visible.</p></div>{{ end }}
+<figure class="pe-essay-frame pe-essay-frame--{{ $frame.layout | default "standard" }}">{{ partial "photography/image.html" (dict "page" $frame.page "file" $frame.file "asset" $frame.asset "alt" $frame.alt) }}<figcaption><span class="pe-caption-title">{{ $frame.caption }}</span>{{ with $frame.place }}<span class="pe-caption-place">{{ . }}</span>{{ end }}</figcaption></figure>
+{{ end }}
+</div>
+<div class="pe-gallery-outro"><p>Continue exploring the photographs.</p><a class="pe-text-link" href="/photography/gallery/">View the gallery →</a></div>
+</div></main>{{ end }}
